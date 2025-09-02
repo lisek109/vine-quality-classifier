@@ -50,3 +50,8 @@ Modeling: Logistic Regression (baseline), Random Forest Classifier, Hyperparamet
 
 Model Selection: Cross-validation, ROC-AUC, Accuracy, F1-score
 
+
+Run the Streamlit app:
+streamlit run app/streamlit_app.py
+
+
