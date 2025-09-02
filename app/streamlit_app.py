@@ -21,7 +21,7 @@ for feature in feature_names:
     user_input[feature] = st.number_input(
         label=feature.replace("_", " ").capitalize(),
         min_value=0.0,
-        step=0.001
+        step=0.001,
         format="%.3f"
     )
 
