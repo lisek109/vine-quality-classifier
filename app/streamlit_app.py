@@ -22,6 +22,7 @@ for feature in feature_names:
         label=feature.replace("_", " ").capitalize(),
         min_value=0.0,
         step=0.001
+        format="%.3f"
     )
 
 # Button "Predict"
